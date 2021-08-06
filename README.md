@@ -1,1 +1,1 @@
-# Linguagemtecinco
+# Linguagemtecinfo
