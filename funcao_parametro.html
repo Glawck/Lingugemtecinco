@@ -1,0 +1,32 @@
+<script type="text/javascript">
+	
+//	Exercício:
+//	- Crie uma função com dois parâmetros inteiros, some os valores e apresente (alert ou document.write).
+	var num1= parseInt(prompt('Digite o numero:'));
+	var num2= parseInt(prompt('Digite o numero:'));
+	
+	function soma(num1,num2){
+		return num1+num2;
+	}
+	
+	var resultado = soma(num1,num2);
+
+	document.write(resultado);
+
+	//comando condicional
+	//se o resultado for maior irá exibir um alerta
+	if (resultado > 100) {
+		alert('Valor maior que 100');
+		//else é a mesma coisa que "senão"
+		}//}else{
+
+		if (resultado == 100) {
+			alert('Valor é igual a 100');
+		}
+
+		if (resultado < 100){
+			alert("valor é menor que 100, sendo "+resultado);
+		}
+		
+
+</script>
